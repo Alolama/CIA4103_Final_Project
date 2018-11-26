@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Phezo_BookStore_Project", "Phezo_BookStore_Project\", "{586DCA54-9167-4C9E-8254-AD0CF9EA44FE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56644"
+		Debug.AspNetCompiler.PhysicalPath = "Phezo_BookStore_Project\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56644\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56644"
+		Release.AspNetCompiler.PhysicalPath = "Phezo_BookStore_Project\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56644\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56644"
+		SlnRelativePath = "Phezo_BookStore_Project\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{586DCA54-9167-4C9E-8254-AD0CF9EA44FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586DCA54-9167-4C9E-8254-AD0CF9EA44FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72D061A2-7E6B-49E3-AFAA-1A0F31720ED7}
+	EndGlobalSection
+EndGlobal
