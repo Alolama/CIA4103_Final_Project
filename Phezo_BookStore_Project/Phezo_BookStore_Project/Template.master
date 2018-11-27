@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+        <nav> 
+            <header>
+                
+
+            </header>
+         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="default.aspx">Home</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="Registration.aspx">Sign up</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="Login.aspx">Login</asp:HyperLink>
+             &nbsp;
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="BooksByCategory.aspx">Search By Category</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="SearchBook.aspx">Search By Title</asp:HyperLink>
+        </nav>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <section>
+            <asp:ContentPlaceHolder ID="Content" runat="server">
+               
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer> Copyright © 2018 by Saeed Ahmed, Mohammed Hassan and Abduljalil Alolama<br />
+            All rights reserved. </footer>
+    </div>
+    </form>
+</body>
+</html>
