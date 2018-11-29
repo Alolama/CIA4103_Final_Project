@@ -21,7 +21,7 @@
             <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="Registration.aspx">Sign up</asp:HyperLink>
             <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="Login.aspx">Login</asp:HyperLink>
              &nbsp;
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="BooksByCategory.aspx">Search By Category</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="BooksByGenre.aspx">Search By Genre</asp:HyperLink>
             <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="SearchBook.aspx">Search By Title</asp:HyperLink>
         </nav>
         <br /><br /><br /><br /><br /><br /><br /><br />
