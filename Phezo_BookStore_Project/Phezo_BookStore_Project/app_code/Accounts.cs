@@ -28,10 +28,12 @@ public class Accounts
 		//
 	}
 
+
+
     public void AddAccounts()
     {
         SqlConnection conn = new SqlConnection();
-        conn.ConnectionString = Config.GetConnectionStr();
+        //conn.ConnectionString = Config.GetConnectionStr();
         conn.Open();
 
         string sql = "Insert into Accounts values(@username , @first_name , @last_name , @email , @password , @profile_picture , @gender , @city , @created_at)";
